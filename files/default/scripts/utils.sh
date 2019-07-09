@@ -13,5 +13,5 @@ reset_test_environment() {
 run_cmd() {
   echo ""
   echo "Running $* ..."
-  sudo -E $*
+  $*
 }
